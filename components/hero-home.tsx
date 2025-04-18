@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import HeroImages from "./hero-images";
 
 export default function HeroHome() {
   return (
@@ -51,24 +51,7 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
-
-          <div
-            className="w-full flex flex-col md:flex-row gap-5"
-            data-aos="fade-up"
-          >
-            <Image
-              src="/MAC-gentlemen.png"
-              alt="multi active card gentlemen version"
-              width={570}
-              height={300}
-            />
-            <Image
-              src="/MAC-ladies.png"
-              alt="multi active card ladies version"
-              width={570}
-              height={300}
-            />
-          </div>
+          <HeroImages />
         </div>
       </div>
     </section>
