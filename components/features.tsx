@@ -47,12 +47,14 @@ export default function Features() {
               reserve study and features an expert-vetted procedure library.
             </p>
           </div>
-          <div className="flex justify-center" data-aos="fade-up">
+          <div
+            className="flex justify-center w-full h-86 my-5 mb-12"
+            data-aos="fade-up"
+          >
             <Image
-              className="max-w-none"
               src={"/images/features.webp"}
               width={1004}
-              height={384}
+              height={584}
               alt="Features"
             />
           </div>
