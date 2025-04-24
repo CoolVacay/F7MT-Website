@@ -64,13 +64,13 @@ export default function Footer() {
                 />
               </Link>
             </div>
-            <div className="text-sm">
+            {/* <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
-                © LemonJuice
+                © Lemonjuice
                 <span className="text-gray-400"> · </span>
                 USA
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

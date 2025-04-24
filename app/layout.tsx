@@ -6,6 +6,8 @@ import localFont from "next/font/local";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 
+import { Toaster } from "react-hot-toast";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -56,6 +58,7 @@ export default function RootLayout({
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
+          <Toaster position="top-center" />
           {children}
 
           <Footer />

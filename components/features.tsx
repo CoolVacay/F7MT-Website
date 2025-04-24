@@ -1,7 +1,6 @@
 import Image from "next/image";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
-import FeaturesImage from "@/public/images/features.png";
 
 export default function Features() {
   return (
@@ -33,7 +32,7 @@ export default function Features() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.25),transparent)1] md:py-20">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
+          <div className="mx-auto max-w-3xl text-center">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
                 We are the only solution
@@ -48,11 +47,11 @@ export default function Features() {
               reserve study and features an expert-vetted procedure library.
             </p>
           </div>
-          <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
+          <div className="flex justify-center" data-aos="fade-up">
             <Image
               className="max-w-none"
-              src={FeaturesImage}
-              width={1104}
+              src={"/images/features.webp"}
+              width={1004}
               height={384}
               alt="Features"
             />

@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import { TelephoneIcon } from "@/public/TelephoneIcon";
 import { MessageIcon } from "@/public/MessageIcon";
+import Cta from "@/components/cta";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -23,6 +24,9 @@ export default async function Page() {
                 </h6>
               </div>
             </div>
+          </div>
+          <div className="w-full">
+            <Cta />
           </div>
           <div className="mt-10 w-6/12">
             <div className="flex items-center justify-around gap-5 rounded-[8px] p-6 sm:gap-10 sm:p-10">
