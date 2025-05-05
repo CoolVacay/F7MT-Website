@@ -33,11 +33,11 @@ export default function Features() {
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.25),transparent)1] md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl text-center">
-            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
+            {/* <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
                 We are the only solution
               </span>
-            </div>
+            </div> */}
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
               Created to increase productivity
             </h2>
@@ -77,8 +77,8 @@ export default function Features() {
                 Work Orders
               </h3>
               <p className="text-indigo-200/85">
-                Assign, track, and complete maintenance work orders from
-                anywhere
+                Never lose track of tasks — your team stays aligned, online or
+                off.
               </p>
             </article>
             <article>
@@ -95,8 +95,7 @@ export default function Features() {
                 Reserve Study Integration
               </h3>
               <p className="text-indigo-200/85">
-                Import your reserve study to create a living, actionable
-                maintenance plan
+                Turn your reserve study into a real roadmap, not a dusty report.
               </p>
             </article>
             <article>
@@ -116,8 +115,8 @@ export default function Features() {
                 Mobile Access for On-Site Teams
               </h3>
               <p className="text-indigo-200/85">
-                Works online or offline with automatic sync, making it easy for
-                teams
+                Stay productive from anywhere — even offline — with automatic
+                sync.
               </p>
             </article>
             <article>
@@ -142,7 +141,8 @@ export default function Features() {
                 Maintenance Time & Cost Tracking
               </h3>
               <p className="text-indigo-200/85">
-                Track how long tasks take, assign internal or external costs
+                Know exactly where time and money go — keep projects on track
+                and on budget.
               </p>
             </article>
             <article>
@@ -162,8 +162,8 @@ export default function Features() {
                 Built by Industry Experts
               </h3>
               <p className="text-indigo-200/85">
-                Created by certified facilities professionals who understand the
-                managing shared properties
+                CRely on certified professionals who know exactly what managing
+                shared properties requires.
               </p>
             </article>
             <article>
@@ -183,8 +183,8 @@ export default function Features() {
                 Maintenance Procedure Library
               </h3>
               <p className="text-indigo-200/85">
-                Access thousands of expert-vetted maintenance tasks tied to your
-                property’s physical components.
+                Equip your team with a playbook — access expert-vetted tasks
+                tied directly to your property’s needs.
               </p>
             </article>
           </div>

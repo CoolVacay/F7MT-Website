@@ -16,7 +16,6 @@ export default function Cta() {
         body: JSON.stringify({ email }),
       });
       const json = await res.json();
-      console.log(json);
       if (json.error) {
         toast.error(json.error);
       } else {
@@ -80,7 +79,7 @@ export default function Cta() {
                     type="submit"
                   >
                     <span className="relative inline-flex items-center">
-                      Join the email list
+                      Get Early Access
                       <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
