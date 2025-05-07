@@ -43,6 +43,23 @@ const nacelle = localFont({
 
 export const metadata = {
   title: "F7 Task Flow",
+  openGraph: {
+    images: ["/logo-white.png"],
+  },
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/favicon-light.ico", // Path to your light mode favicon
+        href: "/favicon-light.ico",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/favicon-dark.ico", // Path to your dark mode favicon
+        href: "/favicon-dark.ico",
+      },
+    ],
+  },
   description:
     "F7 Task Flow is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows ",
 };
