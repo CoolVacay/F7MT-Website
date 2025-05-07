@@ -44,7 +44,10 @@ const nacelle = localFont({
 export const metadata = {
   title: "F7 Task Flow",
   openGraph: {
-    images: ["/logo-white.png"],
+    title: "F7 Task Flow",
+    images: ["/logo-white.png", "logo-black.png"],
+    description:
+      "F7 Task Flow is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows ",
   },
   icons: {
     icon: [
