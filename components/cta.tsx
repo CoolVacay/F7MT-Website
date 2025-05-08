@@ -2,9 +2,11 @@
 import BlurredShape from "@/public/images/blurred-shape.svg";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { toast } from "react-hot-toast";
 
 export default function Cta() {
+  const [email, setEmail] = useState("");
   const subscribe = async (e: React.FormEvent<HTMLFormElement>) => {
     try {
       e.preventDefault();
@@ -21,6 +23,7 @@ export default function Cta() {
       } else {
         toast.success("You did it!");
       }
+      setEmail("");
     } catch (err) {
       toast.error("Something failed.");
     }
@@ -54,10 +57,12 @@ export default function Cta() {
               <input
                 type="email"
                 name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 required
                 placeholder="you@example.com"
                 className="
-                  w-7/12
+                  mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center
                   border border-gray-700
                   bg-gray-800
                   text-gray-100
@@ -65,6 +70,9 @@ export default function Cta() {
                   rounded-lg
                   px-4 py-2
                   mb-2
+                  p-2
+                  w-full
+                  md:w-72
                   focus:outline-none
                   focus:ring-2 focus:ring-indigo-500
                   focus:border-transparent
