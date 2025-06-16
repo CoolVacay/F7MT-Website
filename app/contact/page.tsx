@@ -1,7 +1,7 @@
-import { type Metadata } from "next";
 import { TelephoneIcon } from "@/public/TelephoneIcon";
 import { MessageIcon } from "@/public/MessageIcon";
 import Cta from "@/components/cta";
+import { Metadata } from "next/dist/types";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -38,7 +38,9 @@ export default async function Page() {
                   <p className="text-[18px] font-medium text-primary sm:text-[20px]">
                     Call here
                   </p>
-                  <p className="text-sm sm:text-base">843-813-3359</p>
+                  <a className="text-sm sm:text-base" href="tel:407-610-2628">
+                    (407) 610-2628
+                  </a>
                 </div>
               </div>
               <div className="flex gap-5">
@@ -49,9 +51,7 @@ export default async function Page() {
                   <p className="text-[18px] font-medium text-primary sm:text-[20px]">
                     Email here
                   </p>
-                  <p className="text-sm sm:text-base">
-                    toni.gashi@lj-support.com
-                  </p>
+                  <p className="text-sm sm:text-base">info@f7taskflow.com</p>
                 </div>
               </div>
             </div>

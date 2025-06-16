@@ -101,7 +101,7 @@ export default function Page() {
               href="mailto:info@example.com"
               className="text-blue-600 underline"
             >
-              toni.gashi@lj-support.com
+              info@f7taskflow.com
             </a>{" "}
             <br />
             📍 LemonJuice Solutions, 7380 Sand Lake Rd Suite 130, Orlando, FL
