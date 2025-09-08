@@ -1,4 +1,46 @@
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service - Email Collection | Facilities PM",
+  description:
+    "Terms of Service for email collection at Facilities PM. Learn about our data privacy practices, consent policies, and how we handle your email information. Effective April 15, 2025.",
+  keywords: [
+    "terms of service",
+    "privacy policy",
+    "email collection terms",
+    "data privacy",
+    "facilities PM legal",
+    "email consent",
+    "data protection",
+  ],
+  openGraph: {
+    title: "Terms of Service - Email Collection | Facilities PM",
+    description:
+      "Terms of Service for email collection at Facilities PM. Learn about our data privacy practices and consent policies.",
+    images: [
+      {
+        url: "/logo-white.png",
+        width: 1200,
+        height: 630,
+        alt: "Facilities PM Terms of Service",
+      },
+    ],
+  },
+  twitter: {
+    title: "Terms of Service - Email Collection | Facilities PM",
+    description:
+      "Terms of Service for email collection at Facilities PM. Learn about our data privacy practices and consent policies.",
+    images: ["/logo-white.png"],
+  },
+  alternates: {
+    canonical: "/terms",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function Page() {
   return (
@@ -101,7 +143,7 @@ export default function Page() {
               href="mailto:info@example.com"
               className="text-blue-600 underline"
             >
-              info@f7taskflow.com
+              info@facilitiespm.io
             </a>{" "}
             <br />
             📍 LemonJuice Solutions, 7380 Sand Lake Rd Suite 130, Orlando, FL

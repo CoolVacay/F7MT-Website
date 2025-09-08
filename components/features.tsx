@@ -42,7 +42,7 @@ export default function Features() {
               Created to increase productivity
             </h2>
             <p className="text-lg text-indigo-200/65">
-              F7 Task Flow is a comprehensive platform designed by credentialed
+              Facilities PM is a comprehensive platform designed by credentialed
               facility maintenance experts that integrates directly with your
               reserve study and features an expert-vetted procedure library.
             </p>

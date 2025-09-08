@@ -4,8 +4,39 @@ import Cta from "@/components/cta";
 import { Metadata } from "next/dist/types";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
-  description: "Contact Us Page",
+  title: "Contact Us - Get in Touch with Facilities PM",
+  description:
+    "Contact Facilities PM for support, questions, or to learn more about our facilities management platform. Call (407) 610-2628 or email info@facilitiespm.io. Located in Orlando, FL.",
+  keywords: [
+    "contact facilities management",
+    "facilities PM support",
+    "association software support",
+    "facilities management consultation",
+    "property management help",
+    "association technology support",
+  ],
+  openGraph: {
+    title: "Contact Us - Get in Touch with Facilities PM",
+    description:
+      "Contact Facilities PM for support, questions, or to learn more about our facilities management platform. Call (407) 610-2628 or email info@facilitiespm.io.",
+    images: [
+      {
+        url: "/images/hero-image-01.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Facilities PM - Facilities Management Support",
+      },
+    ],
+  },
+  twitter: {
+    title: "Contact Us - Get in Touch with Facilities PM",
+    description:
+      "Contact Facilities PM for support, questions, or to learn more about our facilities management platform.",
+    images: ["/images/hero-image-01.jpg"],
+  },
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default async function Page() {
@@ -51,7 +82,7 @@ export default async function Page() {
                   <p className="text-[18px] font-medium text-primary sm:text-[20px]">
                     Email here
                   </p>
-                  <p className="text-sm sm:text-base">info@f7taskflow.com</p>
+                  <p className="text-sm sm:text-base">info@facilitiespm.io</p>
                 </div>
               </div>
             </div>
