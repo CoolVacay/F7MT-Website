@@ -68,14 +68,14 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://facilitiespm.io"),
+  metadataBase: new URL("https://www.facilitiespm.io"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://facilitiespm.io",
+    url: "https://www.facilitiespm.io",
     siteName: "Facilities PM",
     title: "Facilities PM - Enhanced Facilities Management for Associations",
     description:

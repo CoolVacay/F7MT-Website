@@ -63,7 +63,7 @@ export default function Home() {
     publisher: {
       "@type": "Organization",
       name: "LemonJuice Solutions",
-      url: "https://facilitiespm.io",
+      url: "https://www.facilitiespm.io",
       address: {
         "@type": "PostalAddress",
         streetAddress: "7380 Sand Lake Rd Suite 130",
