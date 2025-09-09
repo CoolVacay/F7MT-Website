@@ -130,7 +130,8 @@ export const metadata = {
   },
   manifest: "/manifest.json",
   verification: {
-    google: "your-google-verification-code", // Replace with actual verification code
+    google:
+      "google-site-verification=99FyUwDx200VHQPu5izTMg_juM0VnkI-Bqbf07O35k8",
   },
 };
 
